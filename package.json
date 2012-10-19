@@ -1,0 +1,23 @@
+{
+    "name" : "logging-server",
+    "version" : "0.1.0",
+    "author" : "Paul Shannon",
+    "description" : "basic centralized logging for clients",
+    "main" : "./src/index.js",
+    "scripts" : {
+        "test" : "nodeunit test"
+    },
+    "dependencies" : {
+        "express" : "*",
+        "node-syslog" : "*",
+        "optimist" : "*"
+    },
+    "devDependencies" : {
+        "nodeunit" : ">= 0.6.4",
+        "sandboxed-module" : "*",
+        "testutil" : "git://github.com/devpaul/node-testutil.git"
+    },
+    "engine" : {
+        "node" : ">=0.8.1"
+    }
+}
