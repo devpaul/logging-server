@@ -1,4 +1,4 @@
-var loglevel = require('../../lib/logging/logLevel.js')
+var loglevel = require('../../../lib/logging/logLevel.js')
 
 module.exports = function assertStrategyConstruction(unit, test) {
     test.ok(unit[loglevel.ERROR])

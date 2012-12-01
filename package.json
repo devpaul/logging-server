@@ -10,7 +10,8 @@
     "dependencies" : {
         "express" : "*",
         "node-syslog" : "*",
-        "optimist" : "*"
+        "optimist" : "*",
+        "socket.io" : "*"
     },
     "devDependencies" : {
         "nodeunit" : ">= 0.6.4",

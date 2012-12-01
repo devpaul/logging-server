@@ -14,7 +14,7 @@ exports['middleware is correctly registered'] = function(test) {
     var mock = createMockExpress()
     unit(mock)
     test.ok(mock.use.argList)
-    test.equal(3, mock.use.argList.length)
+    test.equal(mock.use.argList.length, 4)
     test.done()
 }
 
