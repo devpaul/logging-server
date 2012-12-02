@@ -1,5 +1,5 @@
 var unit = requireUnit(__filename)
-  , loglevel = require(requireSrc('logging/logLevel.js'))
+  , loglevel = requireSrc('logging/logLevel.js')
   , testutil = require('testutil')
 
 exports['is correctly constructed'] = function(test) {

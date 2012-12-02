@@ -1,6 +1,6 @@
 var unit = requireUnit(__filename)
   , assertStrategyConstruction = require('./assertStrategyConstruction.js')
-  , loglevel = require(requireSrc('logging/logLevel.js'))
+  , loglevel = requireSrc('logging/logLevel.js')
   , testutil = require('testutil')
 
 exports['is constructed properly'] = function(test) {
