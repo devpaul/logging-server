@@ -1,5 +1,7 @@
 # Basic Logging Server
 
+[![Build Status](https://travis-ci.org/devpaul/logging-server.png?branch=master)](https://travis-ci.org/devpaul/logging-server)
+
 A basic logging endpoint written in node
 
 ## Starting the Server
