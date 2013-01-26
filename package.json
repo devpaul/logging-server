@@ -5,7 +5,7 @@
     "description" : "basic centralized logging for clients",
     "main" : "./src/index.js",
     "scripts" : {
-        "test" : "nodeunit test"
+        "test" : "nodeunit ./test/unit/"
     },
     "dependencies" : {
         "express" : "*",
