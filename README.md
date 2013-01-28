@@ -21,3 +21,19 @@ See app.js for all command-line options (in case this document becomes stale)
 * fully tested with unit, functional and load tests
 * separation of concerns
 * productionalized with up-time and monitoring module
+* combines with other services modules (e.g. credentials) to form a server
+
+## Features
+* restful logging (POST/GET)
+* websockets logging
+* ability to attach to an express instance
+* logging to console
+* logging to syslog
+
+## Testing
+You can test locally with the command line:
+``` bash
+    npm test
+```
+
+Testing is also performed using [Travis-CI](http://travis-ci.org).
